@@ -113,12 +113,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
 }
 
 .logo {
-    height: 40px;
+    height: 4rem;
     width: auto;
+    padding-top: 0.5rem;
 }
 
 .nav-menu {
@@ -376,10 +376,10 @@ input:checked + .slider:before {
 }
 
 .section-description {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: var(--foreground);
-    max-width: 600px;
     margin: 0 auto;
+    padding-bottom: 1rem;
 }
 
 .text-primary {
@@ -1057,14 +1057,20 @@ input:checked + .slider:before {
 .contact-cards {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
+    background: var(--gradient-card);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-card);
+    border: 1px solid var(--border);
+    margin-bottom: 1.5rem;
 }
 
 .contact-method-card {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 1.5rem;
+    gap: 2rem;
+    padding: 2rem;
     background: var(--card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -1092,6 +1098,7 @@ input:checked + .slider:before {
 .method-title {
     font-weight: 600;
     margin-bottom: 0.25rem;
+    font-size: 1.2rem;
 }
 
 .method-value {
@@ -1114,7 +1121,7 @@ input:checked + .slider:before {
 
 .contact-form {
     background: var(--gradient-card);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: var(--radius);
     box-shadow: var(--shadow-card);
     border: 1px solid var(--border);
@@ -1122,14 +1129,14 @@ input:checked + .slider:before {
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .form-group label {
     display: block;
     font-weight: 600;
     color: var(--foreground);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .form-group input,
