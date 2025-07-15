@@ -254,13 +254,21 @@ input:checked + .slider:before {
     padding-top: 80px;
 }
 
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity as needed */
+  z-index: 1;
+}
+
 .hero-background {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/hero-background-colorful.jpg');
+    background-image: url('../images/home5.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
